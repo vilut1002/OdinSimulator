@@ -6,21 +6,48 @@ public class Composite : MonoBehaviour
 {
     public float[] Pcomposition = new float[5];
 
+    [System.Serializable]
+    public class Deck
+    {
+        public List<Card> deck = new List<Card>();
+        public int total;
+        public CardGrade cardGrade;
+
+        public Deck()
+        {
+            this.total = total;
+            this.deck = deck;
+            this.cardGrade = cardGrade;
+        }
+    }
+
+
+    public Deck MythDeck = new Deck();
+    public Deck LegendDeck = new Deck();
+    public Deck HeroDeck = new Deck();
+    public Deck RareDeck = new Deck();
+    public Deck HighDeck = new Deck();
+    public Deck NormalDeck = new Deck();
+
+
+    public Deck[] decks = new Deck[6];
+
     public List<Card> deck = new List<Card>();  // 카드 덱
     public int total = 0;  // 카드들의 가중치 총 합
     public UserInfo User;
     public bool isSelecting = false;
 
-    void Start()
-    {
-        // 실행
-        //ResultSelect();
-    }
-
     public List<Card> result = new List<Card>();  // 랜덤하게 선택된 카드를 담을 리스트
 
     public Transform parent;
     public GameObject cardprefab;
+
+    void Start()
+    {
+        decks[0] = MythDeck;
+
+
+    }
 
     public void composite(CardGrade cardGrade)
     {
@@ -67,6 +94,7 @@ public class Composite : MonoBehaviour
         {
             if (selectNum <= Pcomposition[(int)cardGrade])
             {
+                //성공과 실패만 결정되었으므로 이하에는 성패에 따른 클래스 내 아바타 뽑기 구현 필요
                 Card temp = new Card(deck[i]);
                 return temp;
             }

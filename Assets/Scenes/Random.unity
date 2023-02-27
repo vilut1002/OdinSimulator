@@ -1912,6 +1912,118 @@ MonoBehaviour:
   parent: {fileID: 2038896264}
   cardprefab: {fileID: 878384543158946410, guid: 75cb612308941fe4ca50b9b4244ad8a6,
     type: 3}
+--- !u!1 &1568703274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568703276}
+  - component: {fileID: 1568703275}
+  m_Layer: 0
+  m_Name: Composite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1568703275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568703274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fcc800659579b499383df2dccabb05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pcomposition:
+  - 0.14
+  - 0.16
+  - 0.18
+  - 0.21
+  - 0.3
+  MythDeck:
+    deck:
+    - cardName: 
+      cardImage: {fileID: 0}
+      cardGrade: 0
+      weight: 0
+    total: 0
+    cardGrade: 0
+  LegendDeck:
+    deck: []
+    total: 0
+    cardGrade: 0
+  HeroDeck:
+    deck: []
+    total: 0
+    cardGrade: 0
+  RareDeck:
+    deck: []
+    total: 0
+    cardGrade: 0
+  HighDeck:
+    deck: []
+    total: 0
+    cardGrade: 0
+  NormalDeck:
+    deck: []
+    total: 0
+    cardGrade: 0
+  decks:
+  - deck: []
+    total: 0
+    cardGrade: 0
+  - deck: []
+    total: 0
+    cardGrade: 0
+  - deck: []
+    total: 0
+    cardGrade: 0
+  - deck: []
+    total: 0
+    cardGrade: 0
+  - deck: []
+    total: 0
+    cardGrade: 0
+  - deck: []
+    total: 0
+    cardGrade: 0
+  deck:
+  - cardName: 
+    cardImage: {fileID: 0}
+    cardGrade: 0
+    weight: 0
+  - cardName: 
+    cardImage: {fileID: 0}
+    cardGrade: 0
+    weight: 0
+  total: 0
+  User: {fileID: 0}
+  isSelecting: 0
+  result: []
+  parent: {fileID: 0}
+  cardprefab: {fileID: 0}
+--- !u!4 &1568703276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568703274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 837.80505, y: 539.2732, z: 4.8441653}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1691065548
 LightingSettings:
   m_ObjectHideFlags: 0
