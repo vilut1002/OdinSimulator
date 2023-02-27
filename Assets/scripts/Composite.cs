@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Composite : MonoBehaviour
 {
-    public float[] Pcomposition = new float[5];
+    public float[] Pcomposition = new float[6];
 
     [System.Serializable]
     public class Deck
@@ -32,7 +32,7 @@ public class Composite : MonoBehaviour
 
     public Deck[] decks = new Deck[6];
 
-    public List<Card> deck = new List<Card>();  // 카드 덱
+    public List<Card> CompositeDeck = new List<Card>();  // 합성 카드 덱
     public int total = 0;  // 카드들의 가중치 총 합
     public UserInfo User;
     public bool isSelecting = false;
@@ -45,7 +45,11 @@ public class Composite : MonoBehaviour
     void Start()
     {
         decks[0] = MythDeck;
-
+        decks[1] = LegendDeck;
+        decks[2] = HeroDeck;
+        decks[3] = RareDeck;
+        decks[4] = HighDeck;
+        decks[5] = NormalDeck;
 
     }
 
@@ -90,12 +94,12 @@ public class Composite : MonoBehaviour
     {
         float selectNum = Random.Range(0.0f, 1.0f);
 
-        for (int i = 0; i < deck.Count; i++)
+        for (int i = 0; i < CompositeDeck.Count; i++)
         {
             if (selectNum <= Pcomposition[(int)cardGrade])
             {
                 //성공과 실패만 결정되었으므로 이하에는 성패에 따른 클래스 내 아바타 뽑기 구현 필요
-                Card temp = new Card(deck[i]);
+                Card temp = new Card(CompositeDeck[i]);
                 return temp;
             }
         }

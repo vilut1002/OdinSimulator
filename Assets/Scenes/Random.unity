@@ -1942,6 +1942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pcomposition:
+  - 1
   - 0.14
   - 0.16
   - 0.18
@@ -1949,10 +1950,38 @@ MonoBehaviour:
   - 0.3
   MythDeck:
     deck:
-    - cardName: 
-      cardImage: {fileID: 0}
+    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
       cardGrade: 0
-      weight: 0
+      weight: 125
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
+    - cardName: "\uC218\uD638\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
+    - cardName: "\uC218\uD638\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
+    - cardName: "\uC6A9\uB9F9\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
+    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 125
     total: 0
     cardGrade: 0
   LegendDeck:
@@ -1994,15 +2023,7 @@ MonoBehaviour:
   - deck: []
     total: 0
     cardGrade: 0
-  deck:
-  - cardName: 
-    cardImage: {fileID: 0}
-    cardGrade: 0
-    weight: 0
-  - cardName: 
-    cardImage: {fileID: 0}
-    cardGrade: 0
-    weight: 0
+  CompositeDeck: []
   total: 0
   User: {fileID: 0}
   isSelecting: 0
