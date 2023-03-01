@@ -56,16 +56,21 @@ public class Composition : MonoBehaviour
 
     }
 
-    public void Composite(CardGrade cardGrade)
+    public void TMP()
     {
-        while (User.CardOwned[(int)cardGrade].Count >= 4)
+
+    }
+
+    public void Composite(int idx)
+    {
+        while (User.CardOwned[idx].Count >= 4)
         {
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
-            cardtmp = ResultSelect(cardGrade);
+            cardtmp = ResultSelect((CardGrade)idx);
             for (int i = 0; i < cardtmp.Count; i++)
             {
-                User.CardOwned[(int)cardGrade].Add(cardtmp[i]);
+                User.CardOwned[idx].Add(cardtmp[i]);
             }
         }
     }
