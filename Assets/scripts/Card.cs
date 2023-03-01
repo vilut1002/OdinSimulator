@@ -10,7 +10,7 @@ public class Card
     public string cardName;
     public Sprite cardImage;
     public CardGrade cardGrade;
-    public int weight;
+    public double weight;
 
     public Card(Card card)
     {

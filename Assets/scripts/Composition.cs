@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Composite : MonoBehaviour
+public class Composition : MonoBehaviour
 {
     public float[] Pcomposition = new float[6];
 
@@ -10,14 +10,17 @@ public class Composite : MonoBehaviour
     public class Deck
     {
         public List<Card> deck = new List<Card>();
-        public int total;
+        public double total = 0;
         public CardGrade cardGrade;
 
         public Deck()
         {
-            this.total = total;
             this.deck = deck;
             this.cardGrade = cardGrade;
+            for (int i = 0; i < this.deck.Count; i++)
+            {
+                this.total += deck[i].weight;
+            }
         }
     }
 
@@ -53,20 +56,20 @@ public class Composite : MonoBehaviour
 
     }
 
-    public void composite(CardGrade cardGrade)
+    public void Composite(CardGrade cardGrade)
     {
-        while (User.numCard[(int)cardGrade] >= 4)
+        while (User.CardOwned[(int)cardGrade].Count >= 4)
         {
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
             cardtmp = ResultSelect(cardGrade);
             for (int i = 0; i < cardtmp.Count; i++)
             {
-                User.CardOwned.Add(cardtmp[i]);
+                User.CardOwned[(int)cardGrade].Add(cardtmp[i]);
             }
         }
-
     }
+
     public List<Card> ResultSelect(CardGrade cardGrade)
     {
         result = new List<Card>();
@@ -76,10 +79,10 @@ public class Composite : MonoBehaviour
         }
         for (int i = 0; i < 11; i++)
         {
-            if (User.numCard[(int)cardGrade] >= 4)
+            if (User.CardOwned[(int)cardGrade].Count >= 4)
             {
+                //유저 카드 4개 삭제해야함!!!!
                 // 확률을 돌리면서 결과 리스트에 넣어줍니다.
-                User.numCard[(int)cardGrade] -= 4;
                 result.Add(compositeCard(cardGrade));
                 // 비어 있는 카드를 생성하고
                 CardUI cardUI = Instantiate(cardprefab, parent).GetComponent<CardUI>();
@@ -98,7 +101,6 @@ public class Composite : MonoBehaviour
         {
             if (selectNum <= Pcomposition[(int)cardGrade])
             {
-                //성공과 실패만 결정되었으므로 이하에는 성패에 따른 클래스 내 아바타 뽑기 구현 필요
                 Card temp = new Card(CompositeDeck[i]);
                 return temp;
             }

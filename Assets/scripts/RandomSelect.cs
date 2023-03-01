@@ -5,7 +5,7 @@ using UnityEngine;
 public class RandomSelect : MonoBehaviour
 {
     public List<Card> deck = new List<Card>();  // 카드 덱
-    public int total = 0;  // 카드들의 가중치 총 합
+    public double total = 0;  // 카드들의 가중치 총 합
 
     void Start()
     {
@@ -44,10 +44,10 @@ public class RandomSelect : MonoBehaviour
     // 가중치 랜덤의 설명은 영상을 참고.
     public Card RandomCard()
     {
-        int weight = 0;
-        int selectNum = 0;
+        double weight = 0;
+        double selectNum = 0;
 
-        selectNum = Mathf.RoundToInt(total * Random.Range(0.0f, 1.0f));
+        selectNum = total * Random.Range(0.0f, 1.0f);
 
         for (int i = 0; i < deck.Count; i++)
         {
