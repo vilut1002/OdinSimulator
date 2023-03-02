@@ -36,7 +36,6 @@ public class Composition : MonoBehaviour
     public Deck[] decks = new Deck[6];
 
     public List<Card> CompositeDeck = new List<Card>();  // 합성 카드 덱
-    public int total = 0;  // 카드들의 가중치 총 합
     public UserInfo User;
     public bool isSelecting = false;
 
@@ -53,7 +52,13 @@ public class Composition : MonoBehaviour
         decks[3] = RareDeck;
         decks[4] = HighDeck;
         decks[5] = NormalDeck;
-
+        for(int i=0; i < 6; i++)
+        {
+            for(int j=0; j < decks[i].deck.Count; j++)
+            {
+                decks[i].total += decks[i].deck[j].weight;
+            }
+        }
     }
 
     public void TMP()
@@ -63,14 +68,15 @@ public class Composition : MonoBehaviour
 
     public void Composite(int idx)
     {
-        while (User.CardOwned[idx].Count >= 4)
+        Debug.Log("들어옴");
+        if (User.CardOwned[idx].Count >= 4)
         {
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
             cardtmp = ResultSelect((CardGrade)idx);
             for (int i = 0; i < cardtmp.Count; i++)
             {
-                User.CardOwned[idx].Add(cardtmp[i]);
+                User.CardOwned[(int)cardtmp[i].cardGrade].Add(cardtmp[i]);
             }
         }
     }
@@ -83,10 +89,15 @@ public class Composition : MonoBehaviour
             Destroy(parent.GetChild(j).gameObject);
         }
         for (int i = 0; i < 11; i++)
-        {
+        {   
+            
             if (User.CardOwned[(int)cardGrade].Count >= 4)
             {
                 //유저 카드 4개 삭제해야함!!!!
+                User.CardOwned[(int)cardGrade].RemoveAt(0);
+                User.CardOwned[(int)cardGrade].RemoveAt(0);
+                User.CardOwned[(int)cardGrade].RemoveAt(0);
+                User.CardOwned[(int)cardGrade].RemoveAt(0);
                 // 확률을 돌리면서 결과 리스트에 넣어줍니다.
                 result.Add(compositeCard(cardGrade));
                 // 비어 있는 카드를 생성하고
@@ -100,11 +111,17 @@ public class Composition : MonoBehaviour
     // 가중치 랜덤의 설명은 영상을 참고.
     public Card compositeCard(CardGrade cardGrade)
     {
-        float selectNum = Random.Range(0.0f, 1.0f);
+        double weight = 0;
+        double selectNum = 0;
+
+        CompositeDeck = decks[(int)cardGrade].deck;
+
+        selectNum = decks[(int)cardGrade].total*Random.Range(0.0f, 1.0f);
 
         for (int i = 0; i < CompositeDeck.Count; i++)
         {
-            if (selectNum <= Pcomposition[(int)cardGrade])
+            weight += CompositeDeck[i].weight;
+            if (selectNum <= weight)
             {
                 Card temp = new Card(CompositeDeck[i]);
                 return temp;
