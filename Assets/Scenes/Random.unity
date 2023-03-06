@@ -234,13 +234,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Username: 
   Diamond: 100000
+  ConsumedDiamond: 0
   Gotcha_price: 2100
   classJob: 0
   isSelecting: 0
   classCards:
   - {fileID: 1449792414}
   DiamondTxt: {fileID: 489832226}
+  ConsumedDiaTxt: {fileID: 1522334800}
   OwnedCardsUI: {fileID: 1158259749}
+  TrysParent: {fileID: 151401417}
+  Trys: 00000000000000000000000000000000
 --- !u!4 &13329480
 Transform:
   m_ObjectHideFlags: 0
@@ -336,6 +340,123 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68338248}
   m_CullTransparentMesh: 1
+--- !u!1 &131491875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131491876}
+  - component: {fileID: 131491878}
+  - component: {fileID: 131491877}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &131491876
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131491875}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2060789633}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -134, y: 0}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &131491877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131491875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &131491878
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131491875}
+  m_CullTransparentMesh: 1
+--- !u!1 &151401417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151401418}
+  m_Layer: 5
+  m_Name: record
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &151401418
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151401417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1025884991}
+  - {fileID: 2060789633}
+  - {fileID: 393672134}
+  - {fileID: 1920070121}
+  - {fileID: 1432930160}
+  m_Father: {fileID: 1019166778}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -785, y: 449}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &205694178
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +694,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376472453}
   m_CullTransparentMesh: 1
+--- !u!1 &393672133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393672134}
+  - component: {fileID: 393672136}
+  - component: {fileID: 393672135}
+  m_Layer: 5
+  m_Name: HeroTry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &393672134
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393672133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 708422342}
+  m_Father: {fileID: 151401418}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: -201}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &393672135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393672133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &393672136
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393672133}
+  m_CullTransparentMesh: 1
 --- !u!1 &489832225
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +855,82 @@ RectTransform:
   m_AnchoredPosition: {x: 791, y: 484}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &501077405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 501077406}
+  - component: {fileID: 501077408}
+  - component: {fileID: 501077407}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &501077406
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501077405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1025884991}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -134, y: 0}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &501077407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501077405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &501077408
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501077405}
+  m_CullTransparentMesh: 1
 --- !u!1 &508569058
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +1240,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uC2E0\uD654\uD569\uC131"
 --- !u!222 &548079993
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1042,7 +1320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uC77C\uBC18\uD569\uC131"
 --- !u!222 &628731658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1050,6 +1328,430 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628731655}
+  m_CullTransparentMesh: 1
+--- !u!1 &700280546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700280547}
+  - component: {fileID: 700280550}
+  - component: {fileID: 700280549}
+  - component: {fileID: 700280548}
+  m_Layer: 5
+  m_Name: Hero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &700280547
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700280546}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1720188564}
+  m_Father: {fileID: 814255911}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -105, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &700280548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700280546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 700280549}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1568703275}
+        m_TargetAssemblyTypeName: Composition, Assembly-CSharp
+        m_MethodName: Composite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &700280549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700280546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &700280550
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700280546}
+  m_CullTransparentMesh: 1
+--- !u!1 &700365753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700365754}
+  - component: {fileID: 700365756}
+  - component: {fileID: 700365755}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &700365754
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700365753}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 974238084}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &700365755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700365753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: +
+--- !u!222 &700365756
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700365753}
+  m_CullTransparentMesh: 1
+--- !u!1 &708422341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 708422342}
+  - component: {fileID: 708422344}
+  - component: {fileID: 708422343}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &708422342
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708422341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 393672134}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -134, y: 0}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &708422343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708422341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &708422344
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708422341}
+  m_CullTransparentMesh: 1
+--- !u!1 &717862743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717862744}
+  - component: {fileID: 717862747}
+  - component: {fileID: 717862746}
+  - component: {fileID: 717862745}
+  m_Layer: 5
+  m_Name: Legend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &717862744
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717862743}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2067599201}
+  m_Father: {fileID: 814255911}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -308, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &717862745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717862743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 717862746}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1568703275}
+        m_TargetAssemblyTypeName: Composition, Assembly-CSharp
+        m_MethodName: Composite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &717862746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717862743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &717862747
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717862743}
   m_CullTransparentMesh: 1
 --- !u!1 &765961246
 GameObject:
@@ -1157,6 +1859,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1491145387}
+  - {fileID: 717862744}
+  - {fileID: 700280547}
+  - {fileID: 1295221443}
+  - {fileID: 918501721}
   - {fileID: 1331183068}
   m_Father: {fileID: 899848931}
   m_RootOrder: 1
@@ -1204,6 +1910,274 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &918501720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918501721}
+  - component: {fileID: 918501724}
+  - component: {fileID: 918501723}
+  - component: {fileID: 918501722}
+  m_Layer: 5
+  m_Name: High
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &918501721
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918501720}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1997243038}
+  m_Father: {fileID: 814255911}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 298, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &918501722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918501720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 918501723}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1568703275}
+        m_TargetAssemblyTypeName: Composition, Assembly-CSharp
+        m_MethodName: Composite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &918501723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918501720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &918501724
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918501720}
+  m_CullTransparentMesh: 1
+--- !u!1 &974238083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974238084}
+  - component: {fileID: 974238087}
+  - component: {fileID: 974238086}
+  - component: {fileID: 974238085}
+  m_Layer: 5
+  m_Name: DiaRecharge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &974238084
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974238083}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 700365754}
+  m_Father: {fileID: 2130449786}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 607, y: 484}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &974238085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974238083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 974238086}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 13329479}
+        m_TargetAssemblyTypeName: UserInfo, Assembly-CSharp
+        m_MethodName: DiamondRecharge
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &974238086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974238083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &974238087
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974238083}
+  m_CullTransparentMesh: 1
 --- !u!1 &1019166777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +2209,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 489832228}
+  - {fileID: 1522334799}
+  - {fileID: 151401418}
   - {fileID: 1158259751}
   m_Father: {fileID: 2130449786}
   m_RootOrder: 0
@@ -1281,6 +2257,87 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019166777}
+  m_CullTransparentMesh: 1
+--- !u!1 &1025884990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1025884991}
+  - component: {fileID: 1025884993}
+  - component: {fileID: 1025884992}
+  m_Layer: 5
+  m_Name: MythTry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1025884991
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025884990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 501077406}
+  m_Father: {fileID: 151401418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: -85}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1025884992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025884990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1025884993
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025884990}
   m_CullTransparentMesh: 1
 --- !u!1 &1043388937
 GameObject:
@@ -1445,7 +2502,7 @@ RectTransform:
   - {fileID: 508569059}
   - {fileID: 1985850487}
   m_Father: {fileID: 1019166778}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1529,6 +2586,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292299376}
   m_CullTransparentMesh: 1
+--- !u!1 &1295221442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1295221443}
+  - component: {fileID: 1295221446}
+  - component: {fileID: 1295221445}
+  - component: {fileID: 1295221444}
+  m_Layer: 5
+  m_Name: Rare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1295221443
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295221442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1738981012}
+  m_Father: {fileID: 814255911}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 98, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1295221444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295221442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1295221445}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1568703275}
+        m_TargetAssemblyTypeName: Composition, Assembly-CSharp
+        m_MethodName: Composite
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1295221445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295221442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1295221446
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295221442}
+  m_CullTransparentMesh: 1
 --- !u!1 &1331183067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,7 +2753,7 @@ RectTransform:
   m_Children:
   - {fileID: 628731656}
   m_Father: {fileID: 814255911}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1743,6 +2934,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394067973}
   m_CullTransparentMesh: 1
+--- !u!1 &1432930159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432930160}
+  - component: {fileID: 1432930162}
+  - component: {fileID: 1432930161}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1432930160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432930159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 151401418}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -43, y: -31}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1432930161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432930159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uD569\uC131 \uB3C4\uC804 \uC774\uB825"
+--- !u!222 &1432930162
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432930159}
+  m_CullTransparentMesh: 1
 --- !u!1 &1449792412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,443 +3062,475 @@ MonoBehaviour:
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974\t"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 591
+    weight: 5168.499989663
   - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 643
+    weight: 5617.499988765
   - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 643
+    weight: 5617.499988765
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 643
+    weight: 5617.499988765
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 643
+    weight: 5617.499988765
   - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
   - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
     cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
     cardGrade: 1
-    weight: 129
+    weight: 1123.499997753
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1123.499997753
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1123.499997753
+  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 5168.499989663
+  - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 5168.499989663
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
-  - cardName: "\uC6A9\uC758 \uBC14\uC6B0\uAE30"
+    weight: 9563.999980872
+  - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4900
+    weight: 47819.499904361
   - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 980
+    weight: 9563.999980872
   - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
   - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
     cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
     cardGrade: 2
-    weight: 4508
+    weight: 43993.499912013
+  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 9563.999980872
+  - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 9563.999980872
+  - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 9563.999980872
+  - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 9563.999980872
   - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 9615
+    weight: 96147.999807704
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 9615
+    weight: 96147.999807704
   - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 9615
+    weight: 96147.999807704
   - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 9615
+    weight: 96147.999807704
   - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 44228
+    weight: 442280.499115439
   - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
     cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
     cardGrade: 3
-    weight: 48074
+    weight: 480739.99903852
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uD638\uC704\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uD638\uC704\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC218\uD638\uC758 \uADFC\uC704\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC6A9\uB9F9\uC758 \uADFC\uC704\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC218\uD638\uC758 \uBD80\uB300\uC7A5"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC6A9\uB9F9\uC758 \uBD80\uB300\uC7A5"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC218\uD638\uC758 \uC815\uC608\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC6A9\uB9F9\uC758 \uC815\uC608\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC218\uD638\uC758 \uC815\uCC30\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC6A9\uB9F9\uC758 \uC815\uCC30\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1668257
+    weight: 16682566.4666349
   - cardName: "\uC218\uD638\uC758 \uB3CC\uACA9\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
@@ -2235,71 +3538,87 @@ MonoBehaviour:
   - cardName: "\uC6A9\uB9F9\uC758 \uB3CC\uACA9\uBCD1"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1813323
+    weight: 18133224.4637336
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBAA8\uD5D8\uAC00"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1813323
+    weight: 18133224.4637336
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBAA8\uD5D8\uAC00"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1813323
+    weight: 18133224.4637336
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC7A0\uBCF5\uAFBC"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1813323
+    weight: 18133224.4637336
   - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC7A0\uBCF5\uAFBC"
     cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
     cardGrade: 4
-    weight: 1813323
+    weight: 18133224.4637336
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uC0AC\uB0E5\uAFBC"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uC0AC\uB0E5\uAFBC"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC218\uD638\uC758 \uD30C\uC218\uAFBC"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uC218\uAFBC"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC218\uD638\uC758 \uACAC\uC2B5\uBAA8\uD5D8\uAC00"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC6A9\uB9F9\uC758 \uACAC\uC2B5 \uBAA8\uD5D8\uAC00"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC218\uD638\uC758 \uD0D0\uD5D8\uAC00"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC6A9\uB9F9\uC758 \uD0D0\uD5D8\uAC00"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC218\uD638\uC758 \uC218\uC9D1\uAC00"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC6A9\uB9F9\uC758 \uC218\uC9D1\uAC00"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4294083
+    weight: 42940830.9141183
   - cardName: "\uC218\uD638\uC758 \uC218\uD589\uC6D0"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4667482
+    weight: 46674816.4066504
   - cardName: "\uC6A9\uB9F9\uC758 \uC218\uD589\uC6D0"
     cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
     cardGrade: 5
-    weight: 4667482
+    weight: 46674816.4066504
+  - cardName: "\uC218\uD638\uC758 \uACBD\uBE44\uBCD1"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 46674816.4066504
+  - cardName: "\uC6A9\uB9F9\uC758 \uACBD\uBE44\uBCD1"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 46674816.4066504
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBB38\uC9C0\uAE30"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 46674816.4066504
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBB38\uC9C0\uAE30"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 46674816.4066504
   total: 0
   result: []
   parent: {fileID: 2038896264}
@@ -2389,13 +3708,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1568703274}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1568703275}
+        m_TargetAssemblyTypeName: Composition, Assembly-CSharp
+        m_MethodName: Composite
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2438,6 +3757,87 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491145386}
+  m_CullTransparentMesh: 1
+--- !u!1 &1522334798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1522334799}
+  - component: {fileID: 1522334801}
+  - component: {fileID: 1522334800}
+  m_Layer: 5
+  m_Name: ConsumedDiamond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1522334799
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522334798}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1886993356}
+  m_Father: {fileID: 1019166778}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -580, y: 484}
+  m_SizeDelta: {x: 300, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1522334800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522334798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1522334801
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522334798}
   m_CullTransparentMesh: 1
 --- !u!1 &1568703274
 GameObject:
@@ -2512,21 +3912,981 @@ MonoBehaviour:
     total: 0
     cardGrade: 0
   LegendDeck:
-    deck: []
+    deck:
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 48206162.5568621
+    - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 48206162.5568621
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 48206162.5568621
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 48206162.5568621
+    - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 9641432.50997243
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 44349689.5521731
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC218\uD638\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC6A9\uB9F9\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC218\uD638\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
+    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+      cardGrade: 0
+      weight: 17499877.5008575
     total: 0
     cardGrade: 0
   HeroDeck:
-    deck: []
+    deck:
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 25301328.9172759
+    - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5060065.78085515
+    - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 23277302.6049339
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8968616.5920157
+    - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8968616.5920157
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8968616.5920157
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8968616.5920157
+    - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 1793523.31580311
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
+    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
+      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+      cardGrade: 1
+      weight: 8251107.26439444
     total: 0
-    cardGrade: 0
+    cardGrade: 2
   RareDeck:
-    deck: []
+    deck:
+    - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 5959470.20264899
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 5959470.20264899
+    - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 5959470.20264899
+    - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 5959470.20264899
+    - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 27412862.9356853
+    - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 29796351.0182449
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 5421472.89263554
+    - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 4987975.0601247
+    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
+    - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
+      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+      cardGrade: 2
+      weight: 1084494.57752711
     total: 0
-    cardGrade: 0
+    cardGrade: 3
   HighDeck:
-    deck: []
+    deck:
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uD638\uC704\uBCD1\t"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uD638\uC704\uBCD1\t"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC6A9\uB9F9\uC758 \uADFC\uC704\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC218\uD638\uC758 \uADFC\uC704\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC6A9\uB9F9\uC758 \uBD80\uB300\uC7A5"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC218\uD638\uC758 \uBD80\uB300\uC7A5"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uC608\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC218\uD638\uC758 \uC815\uC608\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uCC30\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC218\uD638\uC758 \uC815\uCC30\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 47815760.9211954
+    - cardName: "\uC6A9\uB9F9\uC758 \uB3CC\uACA9\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 51973240.1337993
+    - cardName: "\uC218\uD638\uC758 \uB3CC\uACA9\uBCD1"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 51973240.1337993
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBAA8\uD5D8\uAC00"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 51973240.1337993
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBAA8\uD5D8\uAC00"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 51973240.1337993
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC7A0\uBCF5\uAFBC"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 51973240.1337993
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC7A0\uBCF5\uAFBC"
+      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+      cardGrade: 4
+      weight: 51973240.1337993
+    - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 1525992.37003815
+    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 1525992.37003815
+    - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 1525992.37003815
+    - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 1525992.37003815
+    - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7020464.89767551
+    - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
+    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
+      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+      cardGrade: 3
+      weight: 7630961.84519077
     total: 0
-    cardGrade: 0
+    cardGrade: 4
   NormalDeck:
     deck:
     - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uC0AC\uB0E5\uAFBC"
@@ -2842,6 +5202,166 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714300475}
   m_CullTransparentMesh: 1
+--- !u!1 &1720188563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1720188564}
+  - component: {fileID: 1720188566}
+  - component: {fileID: 1720188565}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1720188564
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720188563}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 700280547}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1720188565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720188563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC601\uC6C5\uD569\uC131"
+--- !u!222 &1720188566
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720188563}
+  m_CullTransparentMesh: 1
+--- !u!1 &1738981011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738981012}
+  - component: {fileID: 1738981014}
+  - component: {fileID: 1738981013}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1738981012
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738981011}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1295221443}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1738981013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738981011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uD76C\uADC0\uD569\uC131"
+--- !u!222 &1738981014
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738981011}
+  m_CullTransparentMesh: 1
 --- !u!1 &1867367422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2975,6 +5495,167 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867367422}
+  m_CullTransparentMesh: 1
+--- !u!1 &1886993355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1886993356}
+  - component: {fileID: 1886993358}
+  - component: {fileID: 1886993357}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1886993356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886993355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1522334799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -275, y: 0}
+  m_SizeDelta: {x: 160, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1886993357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886993355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC18C\uBAA8 \uB2E4\uC774\uC544"
+--- !u!222 &1886993358
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886993355}
+  m_CullTransparentMesh: 1
+--- !u!1 &1920070120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920070121}
+  - component: {fileID: 1920070123}
+  - component: {fileID: 1920070122}
+  m_Layer: 5
+  m_Name: RareTry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1920070121
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920070120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2014119864}
+  m_Father: {fileID: 151401418}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: -259}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1920070122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920070120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1920070123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920070120}
   m_CullTransparentMesh: 1
 --- !u!1 &1927937635
 GameObject:
@@ -3133,6 +5814,162 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985850486}
   m_CullTransparentMesh: 1
+--- !u!1 &1997243037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997243038}
+  - component: {fileID: 1997243040}
+  - component: {fileID: 1997243039}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1997243038
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997243037}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918501721}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1997243039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997243037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uACE0\uAE09\uD569\uC131"
+--- !u!222 &1997243040
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997243037}
+  m_CullTransparentMesh: 1
+--- !u!1 &2014119863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014119864}
+  - component: {fileID: 2014119866}
+  - component: {fileID: 2014119865}
+  m_Layer: 5
+  m_Name: Image (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2014119864
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014119863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920070121}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -134, y: 0}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2014119865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014119863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2014119866
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014119863}
+  m_CullTransparentMesh: 1
 --- !u!1 &2038896263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3234,6 +6071,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038896263}
   m_CullTransparentMesh: 0
+--- !u!1 &2060789632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2060789633}
+  - component: {fileID: 2060789635}
+  - component: {fileID: 2060789634}
+  m_Layer: 5
+  m_Name: LegendTry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2060789633
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060789632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 131491876}
+  m_Father: {fileID: 151401418}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: -143}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2060789634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060789632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &2060789635
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060789632}
+  m_CullTransparentMesh: 1
 --- !u!1 &2061916307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,6 +6190,86 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2067599200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2067599201}
+  - component: {fileID: 2067599203}
+  - component: {fileID: 2067599202}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2067599201
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067599200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717862744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2067599202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067599200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC804\uC124\uD569\uC131"
+--- !u!222 &2067599203
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067599200}
+  m_CullTransparentMesh: 1
 --- !u!1 &2077783326
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,6 +6433,7 @@ RectTransform:
   - {fileID: 1019166778}
   - {fileID: 899848931}
   - {fileID: 2061916308}
+  - {fileID: 974238084}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

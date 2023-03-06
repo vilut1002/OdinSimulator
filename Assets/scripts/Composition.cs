@@ -61,15 +61,9 @@ public class Composition : MonoBehaviour
         }
     }
 
-    public void TMP()
-    {
-
-    }
-
     public void Composite(int idx)
     {
-        Debug.Log("들어옴");
-        if (User.CardOwned[idx].Count >= 4)
+        if (User.CardOwned[idx].Count >= 4 && !isSelecting)
         {
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
@@ -98,6 +92,10 @@ public class Composition : MonoBehaviour
                 User.CardOwned[(int)cardGrade].RemoveAt(0);
                 User.CardOwned[(int)cardGrade].RemoveAt(0);
                 User.CardOwned[(int)cardGrade].RemoveAt(0);
+                if ((int)cardGrade < 5 && (int)cardGrade>0)
+                {
+                    User.Trys[(int)cardGrade-1]+=1;
+                }
                 // 확률을 돌리면서 결과 리스트에 넣어줍니다.
                 result.Add(compositeCard(cardGrade));
                 // 비어 있는 카드를 생성하고
@@ -133,7 +131,7 @@ public class Composition : MonoBehaviour
     public IEnumerator delay()
     {
         isSelecting = true;
-        yield return new WaitForSeconds(1.7f);
+        yield return new WaitForSeconds(1.5f);
         isSelecting = false;
     }
 

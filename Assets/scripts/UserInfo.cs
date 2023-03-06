@@ -9,14 +9,16 @@ public class UserInfo : MonoBehaviour
 
     public string Username;
     public int Diamond;
+    public int ConsumedDiamond = 0;
     public int Gotcha_price;
     public ClassJob classJob;
     public bool isSelecting = false;
 
     public List<Card>[] CardOwned = new List<Card>[6];
     public RandomSelect[] classCards;
-    public Text DiamondTxt;
-    public GameObject OwnedCardsUI;
+    public Text DiamondTxt, ConsumedDiaTxt;
+    public GameObject OwnedCardsUI, TrysParent;
+    public int[] Trys = { 0, 0, 0, 0 };
 
     private void Start()
     {
@@ -30,6 +32,11 @@ public class UserInfo : MonoBehaviour
     private void Update()
     {
         DiamondTxt.text = Diamond.ToString();
+        ConsumedDiaTxt.text = ConsumedDiamond.ToString();
+        for(int i = 0; i < 4; i++)
+        {
+            TrysParent.transform.GetChild(i).GetComponent<Text>().text = Trys[i].ToString();
+        }
 
         //보유중인 카드 카운팅
         if (CardOwned != null)
@@ -50,11 +57,17 @@ public class UserInfo : MonoBehaviour
         Priest
     }
 
+    public void DiamondRecharge(int amount = 100000)
+    {
+        Diamond += amount;
+    }
+
     public void Gatcha()
     {
         if (Diamond >= Gotcha_price && !isSelecting)
         {
             Diamond -= Gotcha_price;
+            ConsumedDiamond += Gotcha_price;
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
             cardtmp = classCards[(int)this.classJob].ResultSelect();
@@ -71,7 +84,7 @@ public class UserInfo : MonoBehaviour
     public IEnumerator delay()
     {
         isSelecting = true;
-        yield return new WaitForSeconds(1.7f);
+        yield return new WaitForSeconds(1.5f);
         isSelecting = false;
     }
 
