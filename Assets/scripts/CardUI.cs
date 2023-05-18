@@ -12,7 +12,7 @@ public class CardUI : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        StartCoroutine(flipanim());
+        StartCoroutine(FlipAnim());
     }
     // 카드의 정보를 초기화
     public void CardUISet(Card card)
@@ -20,18 +20,10 @@ public class CardUI : MonoBehaviour
         chr.sprite = card.cardImage;
         cardName.text = card.cardName;
     }
-    public IEnumerator flipanim()
+    public IEnumerator FlipAnim()
     {
         yield return new WaitForSeconds(0.7f);
         animator.SetTrigger("Flip");
 
     }
-
-    /*
-    // 카드가 클릭되면 뒤집는 애니메이션 재생
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        animator.SetTrigger("Flip");
-    }
-    */
 }

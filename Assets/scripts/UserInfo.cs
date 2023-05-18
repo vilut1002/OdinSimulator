@@ -7,10 +7,10 @@ using UnityEngine.UI;
 public class UserInfo : MonoBehaviour
 {
 
-    public string Username;
-    public int Diamond;
-    public int ConsumedDiamond = 0;
-    public int Gotcha_price;
+    public string username;
+    public int diamond;
+    public int consumed_diamond = 0;
+    public int gotcha_price;
     public ClassJob classJob;
     public bool isSelecting = false;
 
@@ -31,8 +31,8 @@ public class UserInfo : MonoBehaviour
 
     private void Update()
     {
-        DiamondTxt.text = Diamond.ToString();
-        ConsumedDiaTxt.text = ConsumedDiamond.ToString();
+        DiamondTxt.text = string.Format("{0:#,0}", diamond).ToString();
+        ConsumedDiaTxt.text = string.Format("{0:#,0}", consumed_diamond).ToString();
         for(int i = 0; i < 4; i++)
         {
             TrysParent.transform.GetChild(i).GetComponent<Text>().text = Trys[i].ToString();
@@ -59,21 +59,21 @@ public class UserInfo : MonoBehaviour
 
     public void DiamondRecharge(int amount = 100000)
     {
-        Diamond += amount;
+        diamond += amount;
     }
 
-    public void Gatcha()
+    public void Gotcha()
     {
-        if (Diamond >= Gotcha_price && !isSelecting)
+        if (diamond >= gotcha_price && !isSelecting)
         {
-            Diamond -= Gotcha_price;
-            ConsumedDiamond += Gotcha_price;
+            diamond -= gotcha_price;
+            consumed_diamond += gotcha_price;
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
             cardtmp = classCards[(int)this.classJob].ResultSelect();
             for(int i = 0; i < cardtmp.Count; i++)
             {
-                CardOwned[(int)cardtmp[i].cardGrade].Add(cardtmp[i]);
+                CardOwned[(int)cardtmp[i].GetCardGrade()].Add(cardtmp[i]);
             }
         }
         else

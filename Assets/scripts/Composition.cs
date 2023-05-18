@@ -4,60 +4,25 @@ using UnityEngine;
 
 public class Composition : MonoBehaviour
 {
-    public float[] Pcomposition = new float[6];
-
-    [System.Serializable]
-    public class Deck
-    {
-        public List<Card> deck = new List<Card>();
-        public double total = 0;
-        public CardGrade cardGrade;
-
-        public Deck()
-        {
-            this.deck = deck;
-            this.cardGrade = cardGrade;
-            for (int i = 0; i < this.deck.Count; i++)
-            {
-                this.total += deck[i].weight;
-            }
-        }
-    }
+    public float[] pComposition = new float[6];
 
 
-    public Deck MythDeck = new Deck();
-    public Deck LegendDeck = new Deck();
-    public Deck HeroDeck = new Deck();
-    public Deck RareDeck = new Deck();
-    public Deck HighDeck = new Deck();
-    public Deck NormalDeck = new Deck();
+    public List<Deck> decks = new List<Deck>();
 
-
-    public Deck[] decks = new Deck[6];
-
-    public List<Card> CompositeDeck = new List<Card>();  // 합성 카드 덱
+    public List<Card> compositeDeck = new List<Card>();  // 합성 카드 덱
     public UserInfo User;
     public bool isSelecting = false;
-
+    public Transform deckparent;
     public List<Card> result = new List<Card>();  // 랜덤하게 선택된 카드를 담을 리스트
 
-    public Transform parent;
+    public Transform cardparent;
     public GameObject cardprefab;
 
     void Start()
     {
-        decks[0] = MythDeck;
-        decks[1] = LegendDeck;
-        decks[2] = HeroDeck;
-        decks[3] = RareDeck;
-        decks[4] = HighDeck;
-        decks[5] = NormalDeck;
         for(int i=0; i < 6; i++)
         {
-            for(int j=0; j < decks[i].deck.Count; j++)
-            {
-                decks[i].total += decks[i].deck[j].weight;
-            }
+            decks.Add(deckparent.GetChild(i).GetComponent<Deck>());
         }
     }
 
@@ -70,7 +35,7 @@ public class Composition : MonoBehaviour
             cardtmp = ResultSelect((CardGrade)idx);
             for (int i = 0; i < cardtmp.Count; i++)
             {
-                User.CardOwned[(int)cardtmp[i].cardGrade].Add(cardtmp[i]);
+                User.CardOwned[(int)cardtmp[i].GetCardGrade()].Add(cardtmp[i]);
             }
         }
     }
@@ -78,10 +43,11 @@ public class Composition : MonoBehaviour
     public List<Card> ResultSelect(CardGrade cardGrade)
     {
         result = new List<Card>();
-        for (int j = 0; j < parent.childCount; j++)
+        for (int j = 0; j < cardparent.childCount; j++)
         {
-            Destroy(parent.GetChild(j).gameObject);
+            Destroy(cardparent.GetChild(j).gameObject);
         }
+
         for (int i = 0; i < 11; i++)
         {   
             
@@ -96,32 +62,42 @@ public class Composition : MonoBehaviour
                 {
                     User.Trys[(int)cardGrade-1]+=1;
                 }
+                int gradeIdx = SelectGrade(cardGrade); 
                 // 확률을 돌리면서 결과 리스트에 넣어줍니다.
-                result.Add(compositeCard(cardGrade));
+                result.Add(compositeCard(gradeIdx));
                 // 비어 있는 카드를 생성하고
-                CardUI cardUI = Instantiate(cardprefab, parent).GetComponent<CardUI>();
+                CardUI cardUI = Instantiate(cardprefab, cardparent).GetComponent<CardUI>();
                 // 생성 된 카드에 결과 리스트의 정보를 넣어줍니다.
                 cardUI.CardUISet(result[i]);
             }
         }
         return result;
     }
-    // 가중치 랜덤의 설명은 영상을 참고.
-    public Card compositeCard(CardGrade cardGrade)
+    public int SelectGrade(CardGrade cardGrade)
+    {
+        float probability = pComposition[(int)cardGrade];
+        double selectNum = Random.Range(0.0f, 1.0f);
+        if (selectNum <= probability)
+        {
+            return (int)cardGrade-1;
+        }
+        return (int)cardGrade;
+    }
+    public Card compositeCard(int cardGrade)
     {
         double weight = 0;
         double selectNum = 0;
 
-        CompositeDeck = decks[(int)cardGrade].deck;
+        compositeDeck = decks[cardGrade].deck;
 
-        selectNum = decks[(int)cardGrade].total*Random.Range(0.0f, 1.0f);
+        selectNum = decks[cardGrade].total_weight*Random.Range(0.0f, 1.0f);
 
-        for (int i = 0; i < CompositeDeck.Count; i++)
+        for (int i = 0; i < compositeDeck.Count; i++)
         {
-            weight += CompositeDeck[i].weight;
+            weight += compositeDeck[i].GetWeight();
             if (selectNum <= weight)
             {
-                Card temp = new Card(CompositeDeck[i]);
+                Card temp = new Card(compositeDeck[i]);
                 return temp;
             }
         }

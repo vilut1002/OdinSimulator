@@ -182,7 +182,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 89ba1d6219e8a6c4983faccc4f14afbc, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -202,6 +202,161 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2167239}
+  m_CullTransparentMesh: 1
+--- !u!1 &6173859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6173860}
+  - component: {fileID: 6173861}
+  m_Layer: 0
+  m_Name: Myth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6173860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6173859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449792413}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6173861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6173859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1516376bf42061540b93d47a8e457652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
+    cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
+    cardGrade: 0
+    weight: 1
+  total_weight: 0
+  cardGrade: 0
+--- !u!1 &11308324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11308325}
+  - component: {fileID: 11308327}
+  - component: {fileID: 11308326}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &11308325
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11308324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2130449786}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &11308326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11308324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.14150941, b: 0.099832416, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &11308327
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11308324}
   m_CullTransparentMesh: 1
 --- !u!1 &13329478
 GameObject:
@@ -232,10 +387,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879bf7b3d25fe5f479641377f8932a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Username: 
-  Diamond: 100000
-  ConsumedDiamond: 0
-  Gotcha_price: 2100
+  username: 
+  diamond: 100000
+  consumed_diamond: 0
+  gotcha_price: 2100
   classJob: 0
   isSelecting: 0
   classCards:
@@ -319,7 +474,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 89ba1d6219e8a6c4983faccc4f14afbc, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -391,15 +546,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.75294125, g: 0.49803925, b: 0.03137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -450,7 +605,7 @@ RectTransform:
   - {fileID: 1920070121}
   - {fileID: 1432930160}
   m_Father: {fileID: 1019166778}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -516,7 +671,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 89ba1d6219e8a6c4983faccc4f14afbc, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -614,6 +769,181 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248956045}
   m_CullTransparentMesh: 1
+--- !u!1 &298004859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298004860}
+  - component: {fileID: 298004861}
+  m_Layer: 0
+  m_Name: Rare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &298004860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298004859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449792413}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &298004861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298004859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1516376bf42061540b93d47a8e457652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 1
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
+    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
+    cardGrade: 3
+    weight: 5
+  total_weight: 0
+  cardGrade: 3
 --- !u!1 &376472453
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,7 +1003,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 89ba1d6219e8a6c4983faccc4f14afbc, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -848,12 +1178,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1019166778}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 791, y: 484}
-  m_SizeDelta: {x: 300, y: 50}
+  m_SizeDelta: {x: 280, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &501077405
 GameObject:
@@ -906,15 +1236,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7735849, g: 0.28743294, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1228,11 +1558,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1308,11 +1638,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1367,7 +1697,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -105, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700280548
 MonoBehaviour:
@@ -1594,15 +1924,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25490198, g: 0.1764706, b: 0.3647059, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1657,7 +1987,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -308, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717862745
 MonoBehaviour:
@@ -1865,13 +2195,180 @@ RectTransform:
   - {fileID: 918501721}
   - {fileID: 1331183068}
   m_Father: {fileID: 899848931}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &826675667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826675668}
+  - component: {fileID: 826675669}
+  m_Layer: 0
+  m_Name: Legend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &826675668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826675667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449792413}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &826675669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826675667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1516376bf42061540b93d47a8e457652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974\t"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
+    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
+    cardGrade: 1
+    weight: 4.6
+  total_weight: 0
+  cardGrade: 1
 --- !u!1 &899848930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,10 +2397,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1043388938}
   - {fileID: 814255911}
   m_Father: {fileID: 2130449786}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1948,7 +2444,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 298, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918501722
 MonoBehaviour:
@@ -2077,7 +2573,7 @@ RectTransform:
   m_Children:
   - {fileID: 700365754}
   m_Father: {fileID: 2130449786}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2208,12 +2704,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1950811629}
   - {fileID: 489832228}
   - {fileID: 1522334799}
   - {fileID: 151401418}
   - {fileID: 1158259751}
   m_Father: {fileID: 2130449786}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2233,7 +2730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2339,107 +2836,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025884990}
   m_CullTransparentMesh: 1
---- !u!1 &1043388937
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1043388938}
-  - component: {fileID: 1043388941}
-  - component: {fileID: 1043388940}
-  - component: {fileID: 1043388939}
-  m_Layer: 5
-  m_Name: Panel (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1043388938
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043388937}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 899848931}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 43.77112}
-  m_SizeDelta: {x: 0, y: -87.542114}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1043388939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043388937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 7
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 150, y: 225}
-  m_Spacing: {x: 10, y: 10}
-  m_Constraint: 1
-  m_ConstraintCount: 11
---- !u!114 &1043388940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043388937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1043388941
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043388937}
-  m_CullTransparentMesh: 0
 --- !u!1 &1158259749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,7 +2898,7 @@ RectTransform:
   - {fileID: 508569059}
   - {fileID: 1985850487}
   m_Father: {fileID: 1019166778}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2623,8 +3019,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 97, y: 0}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1295221444
 MonoBehaviour:
@@ -2720,6 +3116,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295221442}
   m_CullTransparentMesh: 1
+--- !u!1 &1308592834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308592835}
+  - component: {fileID: 1308592836}
+  m_Layer: 0
+  m_Name: High
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308592835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308592834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449792413}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1308592836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308592834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1516376bf42061540b93d47a8e457652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uD638\uC704\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uD638\uC704\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uADFC\uC704\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uADFC\uC704\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uBD80\uB300\uC7A5"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uBD80\uB300\uC7A5"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uC815\uC608\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uC815\uC608\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uC815\uCC30\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uC815\uCC30\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uB3CC\uACA9\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 75
+  - cardName: "\uC6A9\uB9F9\uC758 \uB3CC\uACA9\uBCD1"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 75
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBAA8\uD5D8\uAC00"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 75
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBAA8\uD5D8\uAC00"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 75
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC7A0\uBCF5\uAFBC"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 75
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC7A0\uBCF5\uAFBC"
+    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
+    cardGrade: 4
+    weight: 75
+  total_weight: 0
+  cardGrade: 4
 --- !u!1 &1331183067
 GameObject:
   m_ObjectHideFlags: 0
@@ -2758,7 +3265,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 498, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331183069
 MonoBehaviour:
@@ -2993,11 +3500,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -3042,7 +3549,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6173860}
+  - {fileID: 826675668}
+  - {fileID: 1682025744}
+  - {fileID: 298004860}
+  - {fileID: 1308592835}
+  - {fileID: 1799864999}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3058,570 +3571,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0224cf30edd7149bce22cc9cfd9e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deck:
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974\t"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5617.499988765
-  - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5617.499988765
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5617.499988765
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5617.499988765
-  - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 1123.499997753
-  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
-    cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-    cardGrade: 1
-    weight: 5168.499989663
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 47819.499904361
-  - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 43993.499912013
-  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
-    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-    cardGrade: 2
-    weight: 9563.999980872
-  - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 96147.999807704
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 96147.999807704
-  - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 96147.999807704
-  - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 96147.999807704
-  - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 442280.499115439
-  - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
-    cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-    cardGrade: 3
-    weight: 480739.99903852
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uD638\uC704\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uD638\uC704\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC218\uD638\uC758 \uADFC\uC704\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC6A9\uB9F9\uC758 \uADFC\uC704\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC218\uD638\uC758 \uBD80\uB300\uC7A5"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC6A9\uB9F9\uC758 \uBD80\uB300\uC7A5"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC218\uD638\uC758 \uC815\uC608\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC6A9\uB9F9\uC758 \uC815\uC608\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC218\uD638\uC758 \uC815\uCC30\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC6A9\uB9F9\uC758 \uC815\uCC30\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 16682566.4666349
-  - cardName: "\uC218\uD638\uC758 \uB3CC\uACA9\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 1813323
-  - cardName: "\uC6A9\uB9F9\uC758 \uB3CC\uACA9\uBCD1"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 18133224.4637336
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBAA8\uD5D8\uAC00"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 18133224.4637336
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBAA8\uD5D8\uAC00"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 18133224.4637336
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC7A0\uBCF5\uAFBC"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 18133224.4637336
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC7A0\uBCF5\uAFBC"
-    cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-    cardGrade: 4
-    weight: 18133224.4637336
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uC0AC\uB0E5\uAFBC"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uC0AC\uB0E5\uAFBC"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC218\uD638\uC758 \uD30C\uC218\uAFBC"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uC218\uAFBC"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC218\uD638\uC758 \uACAC\uC2B5\uBAA8\uD5D8\uAC00"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC6A9\uB9F9\uC758 \uACAC\uC2B5 \uBAA8\uD5D8\uAC00"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC218\uD638\uC758 \uD0D0\uD5D8\uAC00"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC6A9\uB9F9\uC758 \uD0D0\uD5D8\uAC00"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC218\uD638\uC758 \uC218\uC9D1\uAC00"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC6A9\uB9F9\uC758 \uC218\uC9D1\uAC00"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 42940830.9141183
-  - cardName: "\uC218\uD638\uC758 \uC218\uD589\uC6D0"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 46674816.4066504
-  - cardName: "\uC6A9\uB9F9\uC758 \uC218\uD589\uC6D0"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 46674816.4066504
-  - cardName: "\uC218\uD638\uC758 \uACBD\uBE44\uBCD1"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 46674816.4066504
-  - cardName: "\uC6A9\uB9F9\uC758 \uACBD\uBE44\uBCD1"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 46674816.4066504
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBB38\uC9C0\uAE30"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 46674816.4066504
-  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBB38\uC9C0\uAE30"
-    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-    cardGrade: 5
-    weight: 46674816.4066504
+  pGotcha:
+  - 0.010022
+  - 0.15876
+  - 1.322996
+  - 27.562501
+  - 70.945721
   total: 0
+  deckparent: {fileID: 1449792413}
   result: []
-  parent: {fileID: 2038896264}
+  cardparent: {fileID: 2038896264}
   cardprefab: {fileID: 878384543158946410, guid: 75cb612308941fe4ca50b9b4244ad8a6,
     type: 3}
 --- !u!1 &1491145386
@@ -3662,7 +3621,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -507, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491145388
 MonoBehaviour:
@@ -3790,11 +3749,11 @@ RectTransform:
   m_Children:
   - {fileID: 1886993356}
   m_Father: {fileID: 1019166778}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -580, y: 484}
+  m_AnchoredPosition: {x: -583, y: 464}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522334800
@@ -3868,1181 +3827,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3fcc800659579b499383df2dccabb05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pcomposition:
+  pComposition:
   - 1
   - 0.14
   - 0.16
   - 0.18
   - 0.21
   - 0.3
-  MythDeck:
-    deck:
-    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC218\uD638\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC218\uD638\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC6A9\uB9F9\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 125
-    total: 0
-    cardGrade: 0
-  LegendDeck:
-    deck:
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 48206162.5568621
-    - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 48206162.5568621
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 48206162.5568621
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 48206162.5568621
-    - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 9641432.50997243
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 44349689.5521731
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uAC00\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC218\uD638\uC758 \uBE44\uD504\uB85C\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC6A9\uB9F9\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC218\uD638\uC758 \uAE34\uB219\uAC00\uAC00\uD504"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uAC94\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: acf08450570da0749a709d3f8789c524, type: 3}
-      cardGrade: 0
-      weight: 17499877.5008575
-    total: 0
-    cardGrade: 0
-  HeroDeck:
-    deck:
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 25301328.9172759
-    - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5060065.78085515
-    - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 23277302.6049339
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBC1C\uB450\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBC1C\uB450\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC6A9\uB9F9\uC758 \uC2A4\uB9BC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC218\uD638\uC758 \uC2A4\uB9BC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC6A9\uB9F9\uC758 \uD5E4\uB974\uBAA8\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC218\uD638\uC758 \uD5E4\uB974\uBAA8\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC6A9\uB9F9\uC758 \uBAA8\uB514"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC218\uD638\uC758 \uBAA8\uB514"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC6A9\uB9F9\uC758 \uBCA0\uC624\uC6B8\uD504"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC218\uD638\uC758 \uBCA0\uC624\uC6B8\uD504"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uB77C\uC6B0\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC218\uD638\uC758 \uB4DC\uB77C\uC6B0\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uBC14\uC2DC\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8968616.5920157
-    - cardName: "\uC218\uD638\uC758 \uD06C\uBC14\uC2DC\uB974"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8968616.5920157
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uB9C8\uADF8\uB2C8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8968616.5920157
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uB9C8\uADF8\uB2C8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8968616.5920157
-    - cardName: "\uC6A9\uB9F9\uC758 \uAC15\uAE00\uB808\uB9AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC218\uD638\uC758 \uAC15\uAE00\uB808\uB9AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC6A9\uB9F9\uC758 \uD504\uB808\uD0A4"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC218\uD638\uC758 \uD504\uB808\uD0A4"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC6A9\uB9F9\uC758 \uB378\uB9C1\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC218\uD638\uC758 \uB378\uB9C1\uADF8"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC6A9\uB9F9\uC758 \uB77C\uC6B0\uD398\uC774"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC218\uD638\uC758 \uB77C\uC6B0\uD398\uC774"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC6A9\uB9F9\uC758 \uC57C\uB978\uC0AD\uC0AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC218\uD638\uC758 \uC57C\uB978\uC0AD\uC0AC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBCF4\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBCF4\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 1793523.31580311
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC2A4\uD06C"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    - cardName: "\uC218\uD638\uC758 \uC544\uC2A4\uD06C"
-      cardImage: {fileID: 21300000, guid: e37ffcd77268b8144b07a69991980933, type: 3}
-      cardGrade: 1
-      weight: 8251107.26439444
-    total: 0
-    cardGrade: 2
-  RareDeck:
-    deck:
-    - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 5959470.20264899
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 5959470.20264899
-    - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 5959470.20264899
-    - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 5959470.20264899
-    - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 27412862.9356853
-    - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 29796351.0182449
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 5421472.89263554
-    - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 4987975.0601247
-    - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
-      cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
-      cardGrade: 2
-      weight: 1084494.57752711
-    total: 0
-    cardGrade: 3
-  HighDeck:
-    deck:
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uD638\uC704\uBCD1\t"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uD638\uC704\uBCD1\t"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC6A9\uB9F9\uC758 \uADFC\uC704\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC218\uD638\uC758 \uADFC\uC704\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC6A9\uB9F9\uC758 \uBD80\uB300\uC7A5"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC218\uD638\uC758 \uBD80\uB300\uC7A5"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uC608\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC218\uD638\uC758 \uC815\uC608\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uCC30\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC218\uD638\uC758 \uC815\uCC30\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 47815760.9211954
-    - cardName: "\uC6A9\uB9F9\uC758 \uB3CC\uACA9\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 51973240.1337993
-    - cardName: "\uC218\uD638\uC758 \uB3CC\uACA9\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 51973240.1337993
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBAA8\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 51973240.1337993
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBAA8\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 51973240.1337993
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC7A0\uBCF5\uAFBC"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 51973240.1337993
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC7A0\uBCF5\uAFBC"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 51973240.1337993
-    - cardName: "\uC6A9\uB9F9\uC758 \uC9C0\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uC9C0\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uC2EC\uD310\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uC2EC\uD310\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uD559\uC0B4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uD559\uC0B4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uCD94\uC885\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uCD94\uC885\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uC120\uAD6C\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uC120\uAD6C\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uC751\uC9D5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uC218\uD638\uC758 \uC751\uC9D5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uBC95\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uC218\uD638\uC758 \uBB34\uBC95\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uBCF5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uC218\uD638\uC758 \uC815\uBCF5\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uBD84\uC1C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 1525992.37003815
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uBD84\uC1C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 1525992.37003815
-    - cardName: "\uC6A9\uB9F9\uC758 \uC9D1\uD589\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 1525992.37003815
-    - cardName: "\uC218\uD638\uC758 \uC9D1\uD589\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 1525992.37003815
-    - cardName: "\uC6A9\uB9F9\uC758 \uB3C5\uC7AC\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uB3C5\uC7AC\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uC778\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uC778\uB3C4\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uAD34\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC218\uD638\uC758 \uD30C\uAD34\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7020464.89767551
-    - cardName: "\uC6A9\uB9F9\uC758 \uC57D\uD0C8\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uC218\uD638\uC758 \uC57D\uD0C8\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC740\uB454\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC740\uB454\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uCD94\uC801\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uCD94\uC801\uC790"
-      cardImage: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-      cardGrade: 3
-      weight: 7630961.84519077
-    total: 0
-    cardGrade: 4
-  NormalDeck:
-    deck:
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uC0AC\uB0E5\uAFBC"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uC0AC\uB0E5\uAFBC"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uC218\uAFBC"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC218\uD638\uC758 \uD30C\uC218\uAFBC"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC6A9\uB9F9\uC758 \uACAC\uC2B5 \uBAA8\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC218\uD638\uC758 \uACAC\uC2B5 \uBAA8\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC6A9\uB9F9\uC758 \uD0D0\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC218\uD638\uC758 \uD0D0\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC6A9\uB9F9\uC758 \uC218\uC9D1\uAC00"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC218\uD638\uC758 \uC218\uC9D1\uAC00"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4236841.52631695
-    - cardName: "\uC6A9\uB9F9\uC758 \uC218\uD589\uC6D0"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4605240.78951842
-    - cardName: "\uC218\uD638\uC758 \uC218\uD589\uC6D0"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4605240.78951842
-    - cardName: "\uC6A9\uB9F9\uC758 \uACBD\uBE44\uBCD1"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4605240.78951842
-    - cardName: "\uC218\uD638\uC758 \uACBD\uBE44\uBCD1"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4605240.78951842
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBB38\uC9C0\uAE30"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4605240.78951842
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBB38\uC9C0\uAE30"
-      cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
-      cardGrade: 5
-      weight: 4605240.78951842
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uD638\uC704\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uD638\uC704\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC6A9\uB9F9\uC758 \uADFC\uC704\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC218\uD638\uC758 \uADFC\uC704\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC6A9\uB9F9\uC758 \uBD80\uB300\uC7A5"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC218\uD638\uC758 \uBD80\uB300\uC7A5"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uC608\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC218\uD638\uC758 \uC815\uC608\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC6A9\uB9F9\uC758 \uC815\uCC30\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC218\uD638\uC758 \uC815\uCC30\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1815796.36840726
-    - cardName: "\uC6A9\uB9F9\uC758 \uB3CC\uACA9\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1973696.05260789
-    - cardName: "\uC218\uD638\uC758 \uB3CC\uACA9\uBCD1"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1973696.05260789
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBAA8\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1973696.05260789
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBAA8\uD5D8\uAC00"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1973696.05260789
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uC7A0\uBCF5\uAFBC"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1973696.05260789
-    - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uC7A0\uBCF5\uAFBC"
-      cardImage: {fileID: 21300000, guid: 8c355c792b980ef4d9f63e113aba746e, type: 3}
-      cardGrade: 4
-      weight: 1973696.05260789
-    total: 0
-    cardGrade: 5
-  decks:
-  - deck: []
-    total: 0
-    cardGrade: 0
-  - deck: []
-    total: 0
-    cardGrade: 0
-  - deck: []
-    total: 0
-    cardGrade: 0
-  - deck: []
-    total: 0
-    cardGrade: 0
-  - deck: []
-    total: 0
-    cardGrade: 0
-  - deck: []
-    total: 0
-    cardGrade: 0
-  CompositeDeck: []
+  decks: []
+  compositeDeck: []
   User: {fileID: 13329479}
   isSelecting: 0
+  deckparent: {fileID: 1449792413}
   result: []
-  parent: {fileID: 2038896264}
+  cardparent: {fileID: 2038896264}
   cardprefab: {fileID: 878384543158946410, guid: 75cb612308941fe4ca50b9b4244ad8a6,
     type: 3}
 --- !u!4 &1568703276
@@ -5060,6 +3858,237 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1682025743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1682025744}
+  - component: {fileID: 1682025745}
+  m_Layer: 0
+  m_Name: Hero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1682025744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682025743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449792413}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1682025745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682025743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1516376bf42061540b93d47a8e457652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uAD74\uD30D\uC2DC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uAD74\uD30D\uC2DC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uBC14\uC6B0\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uBC14\uC6B0\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uBB34\uB2CC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBB34\uB2CC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uBE44\uB2E4\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBE44\uB2E4\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD39C\uB9AC\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uD39C\uB9AC\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD788\uBBF8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uD788\uBBF8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uAD74\uB9B0\uBD80\uB974\uC2A4\uD2F0"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uBC1C\uB9AC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uB9AC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uBC1C\uD560\uB77C"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBC1C\uD560\uB77C"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uBE0C\uB77C\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBE0C\uB77C\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uD06C\uB77C\uCF04"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uD06C\uB77C\uCF04"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uB1E8\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uB1E8\uB974\uB4DC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uD0D5\uADF8\uB1E8\uC2A4\uD2B8"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uC81C\uB9BC\uB2C8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uC81C\uB9BC\uB2C8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uC6B8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC6A9\uB9F9\uC758 \uC6B8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uAE30\uBBF8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uAE30\uBBF8\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 5
+  - cardName: "\uC218\uD638\uC758 \uD638\uB4DC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uD638\uB4DC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uB4DC\uBC1C\uB9B0"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uB4DC\uBC1C\uB9B0"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uAD70\uB098\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uAD70\uB098\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC218\uD638\uC758 \uC5D0\uAE30\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uC5D0\uAE30\uB974"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uBE4C\uB9AC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uBE4C\uB9AC"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 4.6
+  - cardName: "\uC6A9\uB9F9\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uC544\uC6B0\uB974\uBC18\uB51C"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC6A9\uB9F9\uC758 \uB85C\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  - cardName: "\uC218\uD638\uC758 \uB85C\uAE30"
+    cardImage: {fileID: 21300000, guid: 7c003242842a5994dbebf71773355d5a, type: 3}
+    cardGrade: 2
+    weight: 1
+  total_weight: 0
+  cardGrade: 2
 --- !u!850595691 &1691065548
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -5181,7 +4210,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 89ba1d6219e8a6c4983faccc4f14afbc, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -5261,11 +4290,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5341,11 +4370,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5362,6 +4391,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738981011}
   m_CullTransparentMesh: 1
+--- !u!1 &1799864998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799864999}
+  - component: {fileID: 1799865000}
+  m_Layer: 0
+  m_Name: Normal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799864999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799864998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449792413}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1799865000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799864998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1516376bf42061540b93d47a8e457652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC218\uD638\uC758 \uC0AC\uB0E5\uAFBC"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uCD95\uBCF5\uBC1B\uC740 \uC6A9\uB9F9\uC758 \uC0AC\uB0E5\uAFBC"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uD30C\uC218\uAFBC"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uD30C\uC218\uAFBC"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uACAC\uC2B5\uBAA8\uD5D8\uAC00"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uACAC\uC2B5 \uBAA8\uD5D8\uAC00"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uD0D0\uD5D8\uAC00"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uD0D0\uD5D8\uAC00"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uC218\uC9D1\uAC00"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC6A9\uB9F9\uC758 \uC218\uC9D1\uAC00"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 69
+  - cardName: "\uC218\uD638\uC758 \uC218\uD589\uC6D0"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 75
+  - cardName: "\uC6A9\uB9F9\uC758 \uC218\uD589\uC6D0"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 75
+  - cardName: "\uC218\uD638\uC758 \uACBD\uBE44\uBCD1"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 75
+  - cardName: "\uC6A9\uB9F9\uC758 \uACBD\uBE44\uBCD1"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 75
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC6A9\uB9F9\uC758 \uBB38\uC9C0\uAE30"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 75
+  - cardName: "\uBA85\uC608\uB85C\uC6B4 \uC218\uD638\uC758 \uBB38\uC9C0\uAE30"
+    cardImage: {fileID: 21300000, guid: 68fabcd4ef740a54eb1822d92d358259, type: 3}
+    cardGrade: 5
+    weight: 75
+  total_weight: 0
+  cardGrade: 5
 --- !u!1 &1867367422
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,7 +4588,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 13329479}
         m_TargetAssemblyTypeName: UserInfo, Assembly-CSharp
-        m_MethodName: Gatcha
+        m_MethodName: Gotcha
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5531,7 +4671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275, y: 0}
+  m_AnchoredPosition: {x: -264, y: 0}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1886993357
@@ -5555,8 +4695,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -5716,7 +4856,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 89ba1d6219e8a6c4983faccc4f14afbc, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -5736,6 +4876,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927937635}
+  m_CullTransparentMesh: 1
+--- !u!1 &1950811628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1950811629}
+  - component: {fileID: 1950811631}
+  - component: {fileID: 1950811630}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1950811629
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950811628}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1019166778}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 791, y: 484}
+  m_SizeDelta: {x: 300, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1950811630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950811628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7372549}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1950811631
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950811628}
   m_CullTransparentMesh: 1
 --- !u!1 &1985850486
 GameObject:
@@ -5873,11 +5089,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5945,15 +5161,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.09211465, g: 0.22742923, b: 0.4339623, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97c6cdc3ce43ec84c84be9e02a1ce620, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6183,7 +5399,7 @@ RectTransform:
   - {fileID: 2038896264}
   - {fileID: 1867367423}
   m_Father: {fileID: 2130449786}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6249,11 +5465,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ea2d1fc777ff0c340998ccef0f484fa4, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -6430,6 +5646,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 11308325}
   - {fileID: 1019166778}
   - {fileID: 899848931}
   - {fileID: 2061916308}

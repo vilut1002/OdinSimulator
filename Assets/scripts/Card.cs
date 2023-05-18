@@ -5,12 +5,16 @@ using UnityEngine;
 public enum CardGrade { Myth, Legend, Hero, Rare, High, Normal}
 
 [System.Serializable]
-public class Card 
+public class Card
 {
     public string cardName;
     public Sprite cardImage;
-    public CardGrade cardGrade;
-    public double weight;
+
+    [SerializeField]
+    private CardGrade cardGrade;
+    [SerializeField]
+    private double weight;
+  
 
     public Card(Card card)
     {
@@ -18,5 +22,15 @@ public class Card
         this.cardImage = card.cardImage;
         this.cardGrade = card.cardGrade;
         this.weight = card.weight;
+    }
+
+    public double GetWeight()
+    {
+        return this.weight;
+    }
+
+    public CardGrade GetCardGrade()
+    {
+        return this.cardGrade;
     }
 }
