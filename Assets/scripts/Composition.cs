@@ -10,7 +10,7 @@ public class Composition : MonoBehaviour
     public List<Deck> decks = new List<Deck>();
 
     public List<Card> compositeDeck = new List<Card>();  // 합성 카드 덱
-    public UserInfo User;
+    public UserInfo user;
     public bool isSelecting = false;
     public Transform deckparent;
     public List<Card> result = new List<Card>();  // 랜덤하게 선택된 카드를 담을 리스트
@@ -28,14 +28,14 @@ public class Composition : MonoBehaviour
 
     public void Composite(int idx)
     {
-        if (User.CardOwned[idx].Count >= 4 && !isSelecting)
+        if (user.CardOwned[idx].Count >= 4 && !isSelecting)
         {
             List<Card> cardtmp = new List<Card>();
             StartCoroutine(delay());
             cardtmp = ResultSelect((CardGrade)idx);
             for (int i = 0; i < cardtmp.Count; i++)
             {
-                User.CardOwned[(int)cardtmp[i].GetCardGrade()].Add(cardtmp[i]);
+                user.CardOwned[(int)cardtmp[i].GetCardGrade()].Add(cardtmp[i]);
             }
         }
     }
@@ -51,16 +51,16 @@ public class Composition : MonoBehaviour
         for (int i = 0; i < 11; i++)
         {   
             
-            if (User.CardOwned[(int)cardGrade].Count >= 4)
+            if (user.CardOwned[(int)cardGrade].Count >= 4)
             {
                 //유저 카드 4개 삭제해야함!!!!
-                User.CardOwned[(int)cardGrade].RemoveAt(0);
-                User.CardOwned[(int)cardGrade].RemoveAt(0);
-                User.CardOwned[(int)cardGrade].RemoveAt(0);
-                User.CardOwned[(int)cardGrade].RemoveAt(0);
+                user.CardOwned[(int)cardGrade].RemoveAt(0);
+                user.CardOwned[(int)cardGrade].RemoveAt(0);
+                user.CardOwned[(int)cardGrade].RemoveAt(0);
+                user.CardOwned[(int)cardGrade].RemoveAt(0);
                 if ((int)cardGrade < 5 && (int)cardGrade>0)
                 {
-                    User.Trys[(int)cardGrade-1]+=1;
+                    user.Trys[(int)cardGrade-1]+=1;
                 }
                 int gradeIdx = SelectGrade(cardGrade); 
                 // 확률을 돌리면서 결과 리스트에 넣어줍니다.

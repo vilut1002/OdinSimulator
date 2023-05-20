@@ -8,7 +8,7 @@ public class UserInfo : MonoBehaviour
 {
 
     public string username;
-    public int diamond;
+    private int diamond;
     public int consumed_diamond = 0;
     public int gotcha_price;
     public ClassJob classJob;
@@ -26,7 +26,6 @@ public class UserInfo : MonoBehaviour
         {
             CardOwned[i] = new List<Card>();
         }
-
     }
 
     private void Update()
@@ -62,30 +61,26 @@ public class UserInfo : MonoBehaviour
         diamond += amount;
     }
 
-    public void Gotcha()
+    public void DiamondPlus(int amount = 0)
     {
-        if (diamond >= gotcha_price && !isSelecting)
-        {
-            diamond -= gotcha_price;
-            consumed_diamond += gotcha_price;
-            List<Card> cardtmp = new List<Card>();
-            StartCoroutine(delay());
-            cardtmp = classCards[(int)this.classJob].ResultSelect();
-            for(int i = 0; i < cardtmp.Count; i++)
-            {
-                CardOwned[(int)cardtmp[i].GetCardGrade()].Add(cardtmp[i]);
-            }
-        }
-        else
-        {
-            //다이아 충전하라고 하기
+        diamond += amount;
+    }
+    
+    public void DiamondMinus(int amount = 0)
+    {   
+        if (diamond > amount){
+            diamond -= amount;
         }
     }
-    public IEnumerator delay()
+
+    public void ConsumedDiamondPlus(int amount = 0)
     {
-        isSelecting = true;
-        yield return new WaitForSeconds(1.5f);
-        isSelecting = false;
+        consumed_diamond += amount;
+    }
+
+    public int GetDiamond()
+    {
+        return diamond;
     }
 
 }

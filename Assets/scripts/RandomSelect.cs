@@ -7,6 +7,8 @@ public class RandomSelect : MonoBehaviour
     public double[] pGotcha = new double[5];
     public double total = 0;  // 카드들의 가중치 총 합
     public Transform deckparent;
+    public UserInfo user;
+    public bool isSelecting = false;
     void Start()
     { 
         for (int i = 0; i < pGotcha.Length; i++)
@@ -22,7 +24,28 @@ public class RandomSelect : MonoBehaviour
     public Transform cardparent;
     public GameObject cardprefab;
 
-    
+public void Gotcha()
+    {
+        int diamond = user.GetDiamond();
+        int gotcha_price = user.gotcha_price;
+        if (diamond >= gotcha_price && !isSelecting)
+        {
+            user.DiamondMinus(gotcha_price);
+            user.ConsumedDiamondPlus(gotcha_price);
+            List<Card> cardtmp = new List<Card>();
+            StartCoroutine(delay());
+            cardtmp = ResultSelect();
+            for (int i = 0; i < cardtmp.Count; i++)
+            {
+                user.CardOwned[(int)cardtmp[i].GetCardGrade()].Add(cardtmp[i]);
+            }
+        }
+        else
+        {
+            //다이아 충전하라고 하기
+        }
+    }
+
     public List<Card> ResultSelect()
     {
         result = new List<Card>();
@@ -85,6 +108,12 @@ public class RandomSelect : MonoBehaviour
         return null;
     }
 
-   
+    public IEnumerator delay()
+    {
+        isSelecting = true;
+        yield return new WaitForSeconds(1.5f);
+        isSelecting = false;
+    }
+
 
 }

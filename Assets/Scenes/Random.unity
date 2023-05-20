@@ -388,7 +388,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   username: 
-  diamond: 100000
   consumed_diamond: 0
   gotcha_price: 2100
   classJob: 0
@@ -3579,6 +3578,8 @@ MonoBehaviour:
   - 70.945721
   total: 0
   deckparent: {fileID: 1449792413}
+  user: {fileID: 13329479}
+  isSelecting: 0
   result: []
   cardparent: {fileID: 2038896264}
   cardprefab: {fileID: 878384543158946410, guid: 75cb612308941fe4ca50b9b4244ad8a6,
@@ -3836,7 +3837,7 @@ MonoBehaviour:
   - 0.3
   decks: []
   compositeDeck: []
-  User: {fileID: 13329479}
+  user: {fileID: 13329479}
   isSelecting: 0
   deckparent: {fileID: 1449792413}
   result: []
@@ -4586,8 +4587,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 13329479}
-        m_TargetAssemblyTypeName: UserInfo, Assembly-CSharp
+      - m_Target: {fileID: 1449792414}
+        m_TargetAssemblyTypeName: RandomSelect, Assembly-CSharp
         m_MethodName: Gotcha
         m_Mode: 1
         m_Arguments:
