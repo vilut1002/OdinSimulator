@@ -61,16 +61,11 @@ public class UserInfo : MonoBehaviour
         diamond += amount;
     }
 
-    public void DiamondPlus(int amount = 0)
-    {
-        diamond += amount;
-    }
     
     public void DiamondMinus(int amount = 0)
-    {   
-        if (diamond > amount){
-            diamond -= amount;
-        }
+    {
+        if (diamond > amount) diamond -= amount; else diamond = 0;
+        
     }
 
     public void ConsumedDiamondPlus(int amount = 0)
